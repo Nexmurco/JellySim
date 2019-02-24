@@ -1,5 +1,5 @@
 /*
-Author:         Gavin Youker
+Author:         Yavin Gouker
 Date:           02/17/18
 Description:    High-tech jellyfish simulation
                 program for a better understanding
