@@ -33,7 +33,7 @@ int main() {
 // Function that defines everything of a jellyfish.
 void swim(motion) {
     // Print half of jellyfish.
-    printf(" ___\n(   )\n ---");
+    printf("  _______\n (       )\n ---\n(         )\n (       )");
 
     // Probability of blimps and bloomps.
     int stuff = rand() % 2;
@@ -45,9 +45,9 @@ void swim(motion) {
 
     // Animate jellyfish legs.
     if(motion % 2 == 0) {
-        printf("/ | \\\n");
+        printf("/ \\ | / \\\n\\ / | \\ /\n/ \\ | / \\");
     } else {
-        printf(" \\|/\n");
+        printf(" \\ / | \\ /\n/ \\ | / \\\n \\ / | \\ /");
     }
 
     // Advanced delay algorithm.
